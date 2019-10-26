@@ -9,6 +9,21 @@ If you want to help get in contact, more heads is better than one probably.
 ```js
 import setup from 'fn-form'
 import jsonSchema from './schemas/schema.json'
+
+/* swap in you flavor of hyperscript:
+  hyperscript
+  react-hyperscript
+  hyperscript-string
+  incremental-hyperscript
+  pull-hyperscript
+  virtual-dom/h
+  snabbdom/h
+  @cycle/dom
+  @skatejs/val
+  mithril
+  vue
+*/
+
 import h from 'hyperscript'
 
 const createForm = setup({
