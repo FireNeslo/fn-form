@@ -1,0 +1,17 @@
+{
+  "name": "fn-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo demo --live -- -p esmify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.6.3",
+    "esmify": "^2.1.1",
+    "hyperscript": "^2.0.2"
+  }
+}
